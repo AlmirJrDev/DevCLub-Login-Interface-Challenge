@@ -1,0 +1,94 @@
+     * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         background-color: #FFFFFF;
+         font-family: 'Public Sans', sans-serif;
+         font-family: 'Roboto', sans-serif;
+     }
+     
+     a {
+         text-decoration: none;
+     }
+     
+     h1 {
+         font-weight: 500;
+         font-size: 32px;
+         color: #000000;
+         margin: 128px 0px 12px 16px;
+     }
+     
+     p {
+         margin: 0 16px 102px 16px;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 20px;
+         line-height: 25px;
+         color: rgba(0, 0, 0, 0.5);
+     }
+     
+     input {
+         display: block;
+         width: calc(100% - 32px);
+         padding-left: 15px;
+         height: 48px;
+         background: #F2F2F7;
+         border-radius: 6px;
+         border: none;
+         box-shadow: #F2F2F7;
+         margin: 0px auto;
+     }
+     
+     input::placeholder {
+         font-style: normal;
+         font-weight: 300;
+         font-size: 17px;
+         line-height: 22px;
+         letter-spacing: -0.41px;
+         border: none;
+     }
+     
+     .input-password {
+         margin-top: 12px;
+         margin-bottom: 17px;
+     }
+     
+     .forgot-password {
+         font-style: normal;
+         font-weight: normal;
+         font-size: 16px;
+         line-height: 22px;
+         letter-spacing: -0.41px;
+         color: #007AFF;
+         display: block;
+         margin-right: 16px;
+         text-align: right;
+     }
+     
+     button {
+         width: calc(100% - 32px);
+         height: 48px;
+         color: #FFFFFF;
+         background: rgba(0, 0, 0, 0.94);
+         border-radius: 10px;
+         margin: 0px auto;
+         display: block;
+         margin-top: 20px;
+         margin-bottom: 204px;
+         border: none;
+         font-style: normal;
+         font-weight: 500;
+         font-size: 17px;
+         line-height: 22px;
+         text-align: center;
+         letter-spacing: -0.41px;
+     }
+     
+     .sign {
+         color: rgba(0, 0, 0, 0.51);
+         text-align: center;
+     }
+     
+     strong {
+         color: #007AFF;
+     }
